@@ -8,6 +8,9 @@ For those interested, I shall report each stage of the model development process
 
 # Demo-Preview
 
+[Video Preview](https://drive.google.com/file/d/1-P_C9Ru1lOps6dGjtt-ao6X_g7bbZYI3/view?usp=sharing)
+
+
 ![App Homepage](./images/empty_app.png)
 ![Tb detection](./images/tb_app.png)
 ![Normal detection](./images/normal_app.png)
