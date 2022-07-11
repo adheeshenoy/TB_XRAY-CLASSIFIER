@@ -1,4 +1,4 @@
-# TB Classifier
+# TB X-Ray Classifier
 
 This project aims to investigate if X-ray images can be used to classify whether a patient suffers from Tuberculosis (TB). 
 
@@ -53,8 +53,8 @@ There are two ways to download the application. In both situations it is assumed
 
 ## TL;DR
 - Trained a classifier to detect TB cases using X-ray images
-- Set computational resource limitation, False Negative limitation and Model space limitation (<=20mb)
-- Utilized pre-trained MobileNetV2 as backbone
+- Set computational resource limitation, False Negative limitation and Model space limitation (<=20mb) for development
+- Utilized pre-trained MobileNetV2 as backbone architecture
 - Investigated layers/methods such as:
     - Data Augmentation
     - Class Weights
@@ -63,6 +63,7 @@ There are two ways to download the application. In both situations it is assumed
     - Weighted Binary Cross Entropy
     - Ensemble voting
 - Developed a model with a very low false negative rate. ![Confusion Matrix](./images/final_confusion_matrix.png)
+- Created a MacOS application to use the models
 
 ## Project Criteria
 
